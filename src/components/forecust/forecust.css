@@ -1,0 +1,43 @@
+.title{
+    font-size: 2em;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.cover{
+    background-color: rgb(57, 32, 87);
+    border-radius: 5px;
+    height: 50px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 5px 20px;
+    color: aliceblue;
+}
+.cover p{
+    margin-left: 15px;
+}
+
+.cover img{
+    width: 40px;
+    background-color: aliceblue;
+    padding: 5px;
+}
+
+.day{
+    flex: 1 1;
+    font-weight: 600;
+    margin-left: 15px;
+}
+
+.min-max {
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.grid{
+    margin: 10px;
+    background-color: darkgray;
+    padding: 10px;
+}

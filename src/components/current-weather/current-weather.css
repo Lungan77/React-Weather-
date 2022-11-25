@@ -1,0 +1,31 @@
+.weather{
+    max-width: 500px;
+    border-radius: 5px;
+    box-shadow: 10px -2px 20px 2px rgb(0 0 0 / 30%);
+    color: aliceblue;
+    background-color: rgb(32, 9, 43);
+    margin: 20px auto 0px auto;
+    padding: 0px 20px 20px 20px;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.city{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1;
+    letter-spacing: 2px;
+}
+
+.w-icon {
+    width: 70px;
+    background-color: wheat;
+}
+
+.temperature{
+    font-size: 2em;
+}
